@@ -31,7 +31,7 @@ TechGPT-3.0 是在 TechGPT-2.0 基础上全新升级的大模型版本，采用*
 ## 模型亮点
 TechGPT-3.0 在继承了 TechGPT-3.0 的能力上进行了重要的改进，具有以下几项模型亮点功能：
 - 首先，**TechGPT-3.0 在非法或危险内容的识别与处理能力上进行了显著增强**。能够在处理用户输入时自动过滤涉黄、涉暴、违法违规等高风险内容，有效避免模型输出不当结果，从而大幅提升大模型在企业应用与公众服务中的安全可控性。
-- 其次，**TechGPT-3.0 具备构建决策辅助图谱的能力，**可支持用户在专业领域开展复杂决策分析任务。模型能够识别文本中涉及的实体、属性与因果逻辑，并将其自动组织成结构化的知识图谱，为用户提供更具可视化、可溯源、可解释的知识支撑。例如在金融、法律、医学等领域，该能力可以帮助用户梳理复杂信息、提取关键关系，从而辅助其做出更系统、更有依据的决策判断。
+- 其次，**TechGPT-3.0 具备构建决策辅助图谱的能力**，可支持用户在专业领域开展复杂决策分析任务。模型能够识别文本中涉及的实体、属性与因果逻辑，并将其自动组织成结构化的知识图谱，为用户提供更具可视化、可溯源、可解释的知识支撑。例如在金融、法律、医学等领域，该能力可以帮助用户梳理复杂信息、提取关键关系，从而辅助其做出更系统、更有依据的决策判断。
 - 再次，**TechGPT-3.0 显著提升了对文本中关键信息的抽取能力**，即使面对多段落、非结构化长文本，也能准确提取标题、关键词、主旨句、摘要等关键要素，提升用户在大体量文本中的信息定位效率。
 - 此外，**TechGPT-3.0 的文本生成与整合能力也得到了优化**。模型可基于已有内容生成连贯自然的新文本，支持多段信息之间的逻辑整合、风格统一与层次重组，从而生成更具条理、逻辑清晰、结构合理的长文内容，为内容创作、文案撰写与知识再表达提供智能化支持。
 - 同时，**TechGPT-3.0 展现出更强的跨领域适应能力**，可对接来自多个学科的知识体系与术语表达，无需额外微调即可处理来自材料、机械、人文社科、自然科学等复杂多样的文本输入，使其在多领域、多任务场景下均具备良好的语义理解能力。
@@ -42,13 +42,13 @@ TechGPT-3.0 在继承了 TechGPT-3.0 的能力上进行了重要的改进，具�
 ## 模型下载与体验
 ### 下载地址
 | 模型名称            | 训练方式 | 大小  |                       HuggingFace 下载                       |                        wisemodel 下载                        |                       ModelScope 下载                        |
-| ------------------- | :------: | :---: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| :------------------ | :------: | :---- | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | TechGPT-1.0         | 全量微调 | 13 GB |       [[🤗HF]](https://huggingface.co/neukg/TechGPT-7B)       | [[wisemodel社区]](https://www.wisemodel.cn/models/undefined/TechGPT-1.0) | [[<img src="https://g.alicdn.com/sail-web/maas/1.10.1/static/modelscopeIcon.cd89353f.svg" height="12">]](https://modelscope.cn/models/neukg01/TechGPT-1.0) |
 | TechGPT-2.0-Alpaca  | 全量微调 | 13 GB | [[🤗HF]](https://huggingface.co/neukg/TechGPT-2.0-alpaca-hf)  | [[wisemodel社区]](https://www.wisemodel.cn/models/neukg/TechGPT-2.0-Alpaca) | [[<img src="https://g.alicdn.com/sail-web/maas/1.10.1/static/modelscopeIcon.cd89353f.svg" height="12">]](https://modelscope.cn/models/neukg01/TechGPT-2.0-Alpaca) |
 | TechGPT-2.0-Atom    | 全量微调 | 13 GB |  [[🤗HF]](https://huggingface.co/neukg/TechGPT-2.0-atom-hf)   | [[wisemodel社区]](https://www.wisemodel.cn/models/neukg/TechGPT-2.0-Atom) | [[<img src="https://g.alicdn.com/sail-web/maas/1.10.1/static/modelscopeIcon.cd89353f.svg" height="12">]](https://modelscope.cn/models/neukg01/TechGPT-2.0-Atom) |
 | TechGPT-2.0-QLora   | Lora微调 | 3 GB  |  [[🤗HF]](https://huggingface.co/neukg/TechGPT-2.0-QLora-hf)  | [[wisemodel社区]](https://www.wisemodel.cn/models/neukg/TechGPT-2.0-QLora) | [[<img src="https://g.alicdn.com/sail-web/maas/1.10.1/static/modelscopeIcon.cd89353f.svg" height="12">]](https://modelscope.cn/models/neukg01/TechGPT-2.0-QLora) |
 | TechGPT-2.0-Qwen1.5 | 全量微调 | 14 GB | [[🤗HF]](https://huggingface.co/neukg/TechGPT-2.0-Qwen1.5-7b) | [[wisemodel社区]](https://www.wisemodel.cn/models/neukg/TechGPT-2.0-Qwen1.5) | [[<img src="https://g.alicdn.com/sail-web/maas/1.10.1/static/modelscopeIcon.cd89353f.svg" height="12">]](https://modelscope.cn/models/neukg01/TechGPT-2.0-Qwen1.5-7b) |
-| TechGPT-3.0-Qwen3 🆕 | 全量微调 |  8GB  |  [[🤗HF]](https://huggingface.co/neukg/TechGPT-3.0-Qwen3-8b)  | [[wisemodel社区]](https://www.wisemodel.cn/models/neukg/TechGPT-2.0-Qwen1.5) | [[<img src="https://g.alicdn.com/sail-web/maas/1.10.1/static/modelscopeIcon.cd89353f.svg" height="12">]](https://modelscope.cn/models/neukg01/TechGPT-2.0-Qwen1.5-7b) |
+| TechGPT-3.0-Qwen3 🆕 | 全量微调 | 8GB   |  [[🤗HF]](https://huggingface.co/neukg/TechGPT-3.0-Qwen3-8b)  | [[wisemodel社区]](https://www.wisemodel.cn/models/neukg/TechGPT-2.0-Qwen1.5) | [[<img src="https://g.alicdn.com/sail-web/maas/1.10.1/static/modelscopeIcon.cd89353f.svg" height="12">]](https://modelscope.cn/models/neukg01/TechGPT-2.0-Qwen1.5-7b) |
 
 ### 模型说明
 **TechGPT3 在不同规模且经过扩充后的**TechKG大规模的中、英文学术语料支持下训练完成。

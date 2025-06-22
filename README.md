@@ -434,24 +434,22 @@ print(f"新样本预测结果: {predicted_class}")
 排名不分先后
 <table>
   <tr>
-    <td align='center'>
+    <td align="center" style="padding-right: 40px;">
       <img src="https://avatars.githubusercontent.com/u/95597942?v=4&size=64" alt="Contributor 1" height="150">
       <br>
       <b>Han Yuantao @ Northeastern University</b>
       <br>
-        <a href='https://github.com/hhhyytt'>TechGPT-3.0 项目的核心开发成员</a>
+      <a href="https://github.com/hhhyytt">TechGPT-3.0 项目的核心开发成员</a>
     </td>
-    <td align='center'>
+    <td align="center" style="padding-left: 40px;">
       <img src="https://avatars.githubusercontent.com/u/86044648?v=4" alt="Contributor 2" height="150">
       <br>
       <b>Wang Jiaqi @ Northeastern University</b>
       <br>
-        <a href='https://github.com/wangjiaqi886'>TechGPT-3.0 项目的核心开发成员</a>
+      <a href="https://github.com/wangjiaqi886">TechGPT-3.0 项目的核心开发成员</a>
     </td>
   </tr>
-  </table>
-
-
+</table>
 
 ## 免责声明
 

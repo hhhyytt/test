@@ -1,11 +1,16 @@
 # TechGPT 3.0: Technology-Oriented Generative Pretrained Transformer 3.0
-Demo: [TechGPT-neukg](http://techgpt.neukg.com) <br>
-HuggingFace🤗: [neukg/TechGPT-8B](https://huggingface.co/neukg)
+Demo: [TechGPT-neukg](http://techgpt.neukg.com) 
 
-<div align="center">
-[![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](https://github.com/neukg/TechGPT/blob/main/LICENSE)
-[![Generic badge](https://img.shields.io/badge/🤗-Huggingface%20Repo-green.svg)](https://huggingface.co/neukg)
-</div>
+HuggingFace🤗: [neukg/TechGPT-8B](https://huggingface.co/neukg/TechGPT-3.0-Qwen3-8b)
+
+<p align="center">
+  <a href="https://github.com/neukg/TechGPT/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg" alt="Code License"/>
+  </a>
+  <a href="https://huggingface.co/neukg">
+    <img src="https://img.shields.io/badge/🤗-Huggingface%20Repo-green.svg" alt="Huggingface Repo"/>
+  </a>
+</p>
 
 
 ## 引言
@@ -51,7 +56,7 @@ TechGPT-3.0 在继承了 TechGPT-3.0 的能力上进行了重要的改进，具�
 我们TechGPT-3的**8B版本**的模型已经在Hugging Face和GitHub上开源，后续其他参数的版本将会开源，欢迎大家使用并提出宝贵的意见。
 
 ### 模型体验
-我们目前对外提供 TechGPT-1.0 与 TechGPT3.0 的在线服务：http://techgpt.neukg.com/
+我们目前对外提供 TechGPT3.0 的在线服务：http://techgpt.neukg.com/
 
 作为一个学术组织，我们无法长期提供模型的在线服务功能，当前的体验系统存在着随时下线的可能。因此建议大家后续通过开源权重自行体验，共同创建更好的中文大模型开源环境。
 
